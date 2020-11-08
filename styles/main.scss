@@ -27,11 +27,7 @@ nav{
     background-color: $primary-color;
     margin: $normal-margin;
     font-family: $paragraph-font;
-    ul{
-        li{
-            font-size: $text-small;
-        }
-    }
+    font-size: $text-small;
 }
 
 .btn{
