@@ -1,0 +1,9 @@
+@mixin button($size){
+    border-radius: 12px;
+    font-size: 12px;
+    background-color: green;
+    &:hover{
+        cursor: pointer;
+        background-color: darker ($primary-color, 10%)
+    }
+}

@@ -1,0 +1,30 @@
+@import "./vendor/normalize";
+@import "./partials/colors";
+@import "./partials/typography";
+@import "./partials/mixin";
+
+@media (min-width: 1024px) {
+
+    h1{
+        color: green;
+    }
+    
+}
+
+h1{
+    color: red;
+    font-size: $text-small;
+}
+
+nav{
+    background-color: $primary-color;
+    ul{
+        li{
+            font-size: 10px;
+        }
+    }
+}
+
+.btn{
+    @include button(10px);
+}
