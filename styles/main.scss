@@ -2,11 +2,13 @@
 @import "./partials/colors";
 @import "./partials/typography";
 @import "./partials/mixin";
+@import "./partials/margins";
 
 @media (min-width: 1024px) {
 
     h1{
         color: green;
+        margin: $normal-margin;
     }
     
 }
@@ -19,6 +21,7 @@
 }
 nav{
     background-color: $primary-color;
+    margin: $normal-margin;
     ul{
         li{
             font-size: 10px;
