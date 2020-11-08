@@ -4,6 +4,6 @@
     background-color: $button-color;
     &:hover{
         cursor: pointer;
-        background-color: darker ($button-color, 20%)
+        background-color: darken($button-color, 50%)
     }
 }

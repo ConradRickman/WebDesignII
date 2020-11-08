@@ -368,7 +368,7 @@ nav {
 }
 
 nav ul li {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .btn {
@@ -379,6 +379,6 @@ nav ul li {
 
 .btn:hover {
   cursor: pointer;
-  background-color: darker lightgreen, 20%;
+  background-color: #116e11;
 }
 /*# sourceMappingURL=main.css.map */
