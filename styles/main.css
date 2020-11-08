@@ -5,6 +5,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Martel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -344,16 +346,25 @@ template {
 @media (min-width: 1024px) {
   h1 {
     color: green;
+    margin: 10px;
+    font-size: 40px;
+    font-family: "Martel", serif;
   }
 }
 
-h1 {
-  color: red;
-  font-size: 16px;
+@media (max-width: 1023px) {
+  h1 {
+    color: red;
+    margin: 10px;
+    font-size: 40px;
+    font-family: "Martel", serif;
+  }
 }
 
 nav {
-  background-color: blue;
+  background-color: wheat;
+  margin: 10px;
+  font-family: "Merriweather", serif;
 }
 
 nav ul li {
@@ -362,12 +373,12 @@ nav ul li {
 
 .btn {
   border-radius: 12px;
-  font-size: 12px;
-  background-color: green;
+  font-size: 20px;
+  background-color: lightgreen;
 }
 
 .btn:hover {
   cursor: pointer;
-  background-color: darker blue, 10%;
+  background-color: darker lightgreen, 20%;
 }
 /*# sourceMappingURL=main.css.map */
